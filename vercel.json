@@ -1,0 +1,12 @@
+{
+  "env": {
+    "NEXT_PUBLIC_SUPABASE_URL": "https://dmmpzuhlpgiyilqhtrwg.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_oFbr1sA2_k93FDNcIbe9Ag_0-h0YIax"
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_SUPABASE_URL": "https://dmmpzuhlpgiyilqhtrwg.supabase.co",
+      "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_oFbr1sA2_k93FDNcIbe9Ag_0-h0YIax"
+    }
+  }
+}
