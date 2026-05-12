@@ -6,9 +6,10 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  // SIGBUS fix: disable webpack build worker, use Turbopack instead
   experimental: {
     webpackBuildWorker: false,
   },
-};
+}
 
-export default nextConfig;
+export default nextConfig
