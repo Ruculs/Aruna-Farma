@@ -1,14 +1,20 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '*.supabase.co',
+        port: '',
+        pathname: '/storage/v1/object/public/**',
+      },
+    ],
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  // SIGBUS fix: disable webpack build worker, use Turbopack instead
-  experimental: {
-    webpackBuildWorker: false,
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 }
 
